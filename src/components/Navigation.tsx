@@ -44,9 +44,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("#hero")}
             className="flex items-center space-x-2 group"
           >
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-              <Leaf className="h-6 w-6 text-primary-foreground" />
-            </div>
+            <img src="/apple-touch-icon.png" alt="Veggie Life Logo" className="w-10 h-10 rounded-full group-hover:scale-110 transition-transform" />
             <span className="text-xl font-serif font-bold text-foreground hidden sm:block">
               Veggie Life
             </span>

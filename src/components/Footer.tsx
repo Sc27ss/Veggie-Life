@@ -17,9 +17,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                  <Leaf className="h-6 w-6 text-primary-foreground" />
-                </div>
+                <img src="/apple-touch-icon.png" alt="Veggie Life Logo" className="w-10 h-10 rounded-full" />
                 <h3 className="text-3xl font-serif font-bold">Veggie Life</h3>
               </div>
               <p className="text-sm opacity-90 mb-6 max-w-sm leading-relaxed">
